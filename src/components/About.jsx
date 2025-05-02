@@ -17,7 +17,18 @@ function About() {
           Education
         </h1>
         <span>
+          [10th], [High School Noneya, East Champaran], [2017-2018] 
+          <p>(65.2%)</p>
+        </span>
+        <br />
+        <span>
+          [12th(Science)], [L.N.d College Motihari], [2019-2020]
+          <p>(82.2%)</p> 
+        </span>
+        <br />
+        <span>
           [B.Tech(Computer Science and engineering)], [Oriental college of technology], [2020-2024] 
+          <p>(7.75 CGPA)</p>
         </span>
         <br />
         <br />

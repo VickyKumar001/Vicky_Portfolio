@@ -11,31 +11,37 @@ function Portfolio() {
       id: 1,
       logo: html,
       name: "HTML",
+      link : "https://github.com/VickyKumar001/calculator",
     },
     {
       id: 2,
       logo: css,
       name: "CSS",
+      link : "https://github.com/VickyKumar001/calculator",
     },
     {
       id: 3,
       logo: javaScript,
       name: "javaScript",
+      link : "https://github.com/VickyKumar001/Live-Weather-Update",
     },
     {
       id: 4,
       logo: reactjs,
       name: "ReactJS",
+      link : "https://github.com/VickyKumar001/Ecommerce-WebApp",
     },
     {
       id: 5,
       logo: django,
       name: "Django",
+      link: "https://github.com/VickyKumar001/ShopStroll-Shoping-WebApp",
     },
     {
       id: 6,
       logo: tailwind,
       name: "Tailwind",
+      link : "https://github.com/VickyKumar001/PasswordGenerator-WebApp",
     }
   ];
   return (
@@ -47,7 +53,7 @@ function Portfolio() {
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-8">
-          {cardItem.map(({ id, logo, name }) => (
+          {cardItem.map(({ id, logo, name, link }) => (
             <div
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
@@ -67,9 +73,11 @@ function Portfolio() {
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
                   Video
                 </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
-                </button>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
+                    Source code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
