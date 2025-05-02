@@ -22,12 +22,12 @@ function About() {
         </span>
         <br />
         <span>
-          [12th(Science)], [L.N.d College Motihari], [2019-2020]
+          [12th(Science)], [L.N.D College Motihari], [2019-2020]
           <p>(82.2%)</p> 
         </span>
         <br />
         <span>
-          [B.Tech(Computer Science and engineering)], [Oriental college of technology], [2020-2024] 
+          [B.Tech(Computer Science and Engineering)], [Oriental college of technology, Bhopal], [2020-2024] 
           <p>(7.75 CGPA)</p>
         </span>
         <br />
