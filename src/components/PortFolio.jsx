@@ -12,36 +12,42 @@ function Portfolio() {
       logo: html,
       name: "HTML",
       link : "https://github.com/VickyKumar001/calculator",
+      description : "A calculator built with HTML, CSS and JavaScript",
     },
     {
       id: 2,
       logo: css,
       name: "CSS",
       link : "https://github.com/VickyKumar001/calculator",
+      description : "A calculator built with HTML, CSS and JavaScript",
     },
     {
       id: 3,
       logo: javaScript,
       name: "javaScript",
       link : "https://github.com/VickyKumar001/Live-Weather-Update",
+      description : "A Live Weather Update built with HTML, CSS and JavaScript",
     },
     {
       id: 4,
       logo: reactjs,
       name: "ReactJS",
       link : "https://github.com/VickyKumar001/Ecommerce-WebApp",
+      description : "A Ecommerce WebApp built with ReactJS",
     },
     {
       id: 5,
       logo: django,
       name: "Django",
       link: "https://github.com/VickyKumar001/ShopStroll-Shoping-WebApp",
+      description : "A Shoping WebApp built with Django",
     },
     {
       id: 6,
       logo: tailwind,
       name: "Tailwind",
       link : "https://github.com/VickyKumar001/PasswordGenerator-WebApp",
+      description : "A Password Generator WebApp built with Tailwind CSS",
     }
   ];
   return (
@@ -53,7 +59,7 @@ function Portfolio() {
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-8">
-          {cardItem.map(({ id, logo, name, link }) => (
+          {cardItem.map(({ id, logo, name, link, description }) => (
             <div
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
@@ -66,7 +72,7 @@ function Portfolio() {
               <div>
                 <div className="px-2 font-bold text-xl mb-2">{name}</div>
                 <p className="px-2 text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  {description}
                 </p>
               </div>
               <div className=" px-6 py-4 space-x-3 justify-around">
