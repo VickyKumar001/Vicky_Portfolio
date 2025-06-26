@@ -2,7 +2,7 @@ import React from "react";
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import javaScript from "../../public/java-script.png"
-import django from "../../public/Django-logo.png";
+import django from '../assets/Django-logo.png';
 import reactjs from "../../public/reactjs.png";
 import tailwind from "../../public/Tailwind CSS.png"
 function Portfolio() {
