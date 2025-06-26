@@ -32,8 +32,8 @@ function Portfolio() {
       id: 4,
       logo: reactjs,
       name: "ReactJS",
-      link : "https://github.com/VickyKumar001/Ecommerce-WebApp",
-      description : "A Ecommerce WebApp built with ReactJS",
+      link : "https://github.com/VickyKumar001/ShopHere",
+      description : "A Ecommerce WebApp that name is ShopHere built with ReactJS for frontend and Django for backend",
     },
     {
       id: 5,
