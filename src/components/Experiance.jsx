@@ -1,10 +1,10 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
+import html from "../assets/html.png";
+import css from "../assets/css.jpg";
 import django from '../assets/Django-logo.png';
-import tailwind from "../../public/Tailwind CSS.png";
-import javascript from "../../public/javascript.png";
-import react from "../../public/reactjs.png"
+import tailwind from "../assets/Tailwind CSS.png";
+import javascript from "../assets/javascript.png";
+import react from "../assets/reactjs.png"
 function Experiance() {
   const cardItem = [
     {

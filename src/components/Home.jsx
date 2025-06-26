@@ -1,11 +1,11 @@
 import React from "react";
 
-import pic from "../../public/pic2.jpg";
+import pic from "../assets/pic2.jpg";
 import djangoLogo from '../assets/Django-logo.png';
-import htmllogo from "../../public/html.png";
+import htmllogo from "../assets/html.png";
 
-import JavaScriptlogo from "../../public/java-script.png";
-import csslogo from "../../public/css.jpg";
+import JavaScriptlogo from "../assets/java-script.png";
+import csslogo from "../assets/css.jpg";
 
 
 import { FaSquareFacebook } from "react-icons/fa6";
