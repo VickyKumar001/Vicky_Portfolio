@@ -1,7 +1,7 @@
 import React from "react";
 
 import pic from "../../public/pic2.jpg";
-import djangoLogo from "../../public/Django-Logo.png";
+import djangoLogo from '../assets/Django-logo.png';
 import htmllogo from "../../public/html.png";
 
 import JavaScriptlogo from "../../public/java-script.png";
